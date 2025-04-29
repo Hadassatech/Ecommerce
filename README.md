@@ -85,7 +85,7 @@ Setup Environment Vaiables
 Start the server
 
 ```bash
-    npm run start:dev
+    docker compose up -d --build
 ```
 
 ## Tech Stack
