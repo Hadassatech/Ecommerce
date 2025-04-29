@@ -72,13 +72,16 @@ Install dependencies
 Setup Environment Vaiables
 
 ```Make .env file and store environment Variables
-  DB_TYPE=mysql
-  DB_HOST=YOUR_DB_HOST
-  DB_PORT=YOUR_DB_PORT
-  DB_USERNAME=YOUR_DB_USER
-  DB_PASSWORD=YOUR_DB_PASSWORD
-  DB_DATABASE=DB_NAME
-  JWT_SECRET=secretkey
+DB_HOST=mysql
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=123456
+DB_TYPE=mysql
+DB_DATABASE=ecommerce_db
+DB_NAME=ecommerce_db
+JWT_SECRET=secret123
+JWT_EXPIRES_IN=10m
+
 
  ```
 
@@ -100,11 +103,3 @@ Start the server
 
 The application is deployed on Render.
 
-## Contributing
-
-Contributions are always welcome!
-Just raise an issue, and we will discuss it.
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
