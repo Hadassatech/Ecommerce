@@ -1,6 +1,6 @@
 # Ecommerce Apis - NestJS
 
-This repository hosts the source code for a feature-rich eCommerce application built with NestJS. It includes user authentication, product management, order processing, and role-based access control. The application uses JWT for authentication, Bcrypt for password hashing, Mysql for database, TypeORM, Nest Access Control.
+This repository hosts the source code for a feature-rich eCommerce application built with NestJS. It includes user authentication, product management, and role-based access control. The application uses JWT for authentication, Bcrypt for password hashing, Mysql for database, TypeORM, Nest Access Control.
 
 
 ## Features
@@ -8,12 +8,12 @@ This repository hosts the source code for a feature-rich eCommerce application b
 - User and Admin roles
 - JWT Authentication
 - Password Hashing with Bcrypt
-- CRUD Operations for Products, Categories, and Orders
+- CRUD Operations for Products and Categories.
 - Login/Signup/Logout/Status
 - Swagger API Documentation
 - Role-Based Access Control
-- Admin: Can create, edit, delete products and categories, and manage orders.
-- User: Can browse products, add to cart, and place orders.
+- Admin: Can create, edit, delete products and categories.
+- User: Can browse products, add to cart.
 - Authenticated APIs for secured access
 - REST APIs for interaction with the application
 - Database: MySQL with TypeORM
